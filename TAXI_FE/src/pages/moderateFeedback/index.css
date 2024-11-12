@@ -1,0 +1,19 @@
+.creride-bg {
+    background-image: url('/busdrive.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    padding-top: 0; 
+  }
+  
+  .box {
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+ }

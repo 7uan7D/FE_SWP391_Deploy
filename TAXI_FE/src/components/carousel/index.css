@@ -1,0 +1,36 @@
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 8px;
+}
+  
+.custom-carousel {
+  position: relative;
+  width: 100%; 
+  margin: 0 auto; 
+}
+.carousel-item {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+
+  .carousel-caption h1, .carousel-caption h5 {
+    
+    margin-top: 15px;
+  }
+  
+  
+  

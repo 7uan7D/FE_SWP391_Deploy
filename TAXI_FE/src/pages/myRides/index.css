@@ -1,0 +1,104 @@
+.my-rides-bg {
+  background-image: url('/busdrive.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 1px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.my-rides-container {
+  border: 2px solid #000;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+  max-width: 1400px; 
+  overflow: hidden;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+  font-size: 1.1rem; 
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 30px; 
+}
+
+.ride-list-section {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px; 
+  overflow-y: auto;
+}
+
+.rides-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ride-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 24px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.1rem; 
+}
+
+.ride-card:hover {
+  transform: scale(1.05);
+}
+
+.ride-details-section {
+  padding: 20px; 
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 600px; 
+  font-size: 1.1rem; 
+}
+
+.ride-details-section h5 {
+  margin-top: 0;
+}
+
+.select-ride-btn {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem; 
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px; 
+}
+
+.select-ride-btn:hover {
+  background-color: #0056b3;
+}

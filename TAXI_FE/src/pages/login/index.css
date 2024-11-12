@@ -1,0 +1,22 @@
+/* Add some spacing between the two links */
+.auth-links {
+    display: flex;
+    justify-content: space-between; /* Separate the two links */
+    margin-bottom: 20px; /* Add space between the links and buttons */
+  }
+  
+  /* Optionally, you can make them appear in a column layout */
+  .auth-links .register-link, .auth-links .forgot-password-link {
+    display: block;
+    margin-bottom: 10px; /* Adds space between the links */
+  }
+  
+  /* Styling for the links (Optional) */
+  .auth-links .register-link, .auth-links .forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-links .register-link:hover, .auth-links .forgot-password-link:hover {
+    text-decoration: underline;
+  }

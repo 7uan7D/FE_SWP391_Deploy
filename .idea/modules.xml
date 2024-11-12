@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FE_SWP391_Deploy.iml" filepath="$PROJECT_DIR$/.idea/FE_SWP391_Deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TAXI_FE.iml" filepath="$PROJECT_DIR$/.idea/TAXI_FE.iml" />
     </modules>
   </component>
 </project>

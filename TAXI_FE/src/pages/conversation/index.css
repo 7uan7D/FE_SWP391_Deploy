@@ -1,0 +1,29 @@
+
+  .conversation-bg {
+    background-image: url('/busdrive.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 60vh;
+  }
+  .list-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .list-item:hover {
+    background-color: #e0e0e0; 
+  }
+  
+  .secondary {
+    color: #666;
+  }
+  

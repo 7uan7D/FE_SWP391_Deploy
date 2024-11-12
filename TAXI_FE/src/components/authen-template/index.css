@@ -1,0 +1,23 @@
+.authen-template{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/33/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authen-template__form {
+    background-color: #fff; /* Nền trắng cho form */
+    padding: 24px; /* Tạo khoảng cách giữa các thành phần và viền form */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ để form nổi bật */
+    max-width: 400px; /* Giới hạn chiều rộng của form */
+    width: 100%; /* Đảm bảo form không bị nhỏ hơn */
+  }
+
+
+/* flex box */

@@ -1,0 +1,117 @@
+/* Navbar Styles */
+.navbar {
+  width: 100%; 
+  padding: 0 20px; 
+  height: 60px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #ffc107; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+}
+
+.logo-img {
+  height: 40px; 
+  width: auto; 
+}
+
+/* Button Styles */
+.book-btn,
+.login-btn,
+.btn-primary,
+.nav-button {
+  padding: 12px 20px; /* Increased padding for buttons */
+  font-size: 16px; /* Font size for buttons */
+  border: none; /* Remove borders */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text color */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Hover effects */
+  margin: 5px 0; /* Space between buttons */
+  max-width: 120px; /* Make buttons full width */
+  text-align: center; /* Center text */
+}
+
+/* Button Hover Effects */
+.book-btn:hover,
+.login-btn:hover,
+.btn-primary:hover,
+.nav-button:hover {
+  background-color: #218838; 
+  transform: translateY(-2px); 
+}
+
+/* Button Active State */
+.nav-button:active,
+.book-btn:active,
+.login-btn:active,
+.btn-primary:active {
+  background-color: #1e7e34; 
+  transform: translateY(0); 
+}
+
+/* Right Section Styles */
+.right-section {
+  display: flex; 
+  align-items: center; 
+  gap: 15px; 
+}
+
+/* Welcome Message Styles */
+.welcome-message {
+  font-size: 14px; 
+  color: #000000; 
+  margin-right: 10px; 
+}
+
+/* Icon Styles */
+.icon {
+  font-size: 1.5rem; 
+  cursor: pointer; 
+  display:none; 
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991.98px) {
+  .navbar {
+    height: auto; 
+    padding: 10px; 
+  }
+
+  .logo-img {
+    margin: 0; 
+  }
+
+  .icon {
+    display: block; /* Show icons on smaller screens */
+  }
+
+  /* Right Section for Mobile */
+  .right-section {
+    display: none; /* Initially hidden */
+  }
+
+  
+  .right-section.active {
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items */
+    background-color: #ffffff; /* Background color for mobile */
+    position: absolute; /* Use absolute positioning */
+    width: 350px; /* Width of the dropdown */
+    height: auto; /* Auto height */
+    top: 70px; /* Position from the top */
+    right: 0; /* Align to the right */
+    z-index: 1000;
+    display: flex; /* Show when active */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px; /* Padding around the section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  } 
+  
+}

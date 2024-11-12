@@ -1,0 +1,21 @@
+
+.creride-bg {
+  background-image: url('/busdrive.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  position: relative;
+  padding-top: 0; /* Remove padding-top */
+}
+
+  .box {
+    padding: 20px; /* Padding inside the chat box */
+    background-color: #ffffff; /* White background for the chat box */
+    border-radius: 12px; /* Rounded corners for the chat box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  

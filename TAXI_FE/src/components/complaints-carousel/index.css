@@ -1,0 +1,81 @@
+.complaints-carousel {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+/* Styling for individual complaint items */
+.complaint-item {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 10px;
+}
+
+/* On smaller screens, stack content vertically */
+@media (max-width: 768px) {
+  .complaint-item {
+      flex-direction: column;
+      padding: 1rem;
+  }
+}
+
+/* Hover effect for complaint items */
+.complaint-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Font and color adjustments for paragraphs */
+.complaint-item p {
+  color: #333;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Bold font for the first paragraph (e.g., name) */
+.complaint-item p:first-of-type {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Rating stars layout */
+.complaint-item .rating {
+  display: flex;
+  gap: 0.25rem;
+}
+
+/* Responsive font size adjustments */
+@media (max-width: 1024px) {
+  .complaint-item p {
+      font-size: 0.9rem;
+  }
+  
+  .complaint-item p:first-of-type {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .complaints-carousel {
+      padding: 0 10px;
+  }
+
+  .complaint-item {
+      padding: 1rem;
+      margin: 1rem 0;
+  }
+
+  .complaint-item p {
+      font-size: 0.85rem;
+  }
+  
+  .complaint-item p:first-of-type {
+      font-size: 0.95rem;
+  }
+}

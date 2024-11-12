@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.join-ride-bg {
+  background-image: url('/busdrive.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 60vh;
+}
+
+
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 16px;
+  text-align: left;
+}
+
+.typography-title {
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.select-ride-btn {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.select-ride-btn:hover {
+  background-color: #0056b3;
+}
+
+.join-btn {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.join-btn:hover {
+  background-color: #218838;
+}
+
+.snackbar-success {
+  background-color: #4CAF50;
+}
+
+.snackbar-error {
+  background-color: #F44336;
+}
+.typography-title {
+  margin-top: 100px; /* Adjust the value as needed */
+  margin-bottom: 40px;
+}
